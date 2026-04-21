@@ -8,61 +8,6 @@
 
 Stop showing boring text loaders. Give your users a beautiful, interactive experience while your scripts perform their magic.
 
----
-
-## 🚀 Key Features
-
-- **100+ Unique Animations:** From classic dots to bouncing bars, clocks, and weather icons.
-- **Zero Dependencies:** Pure code that won't bloat your project.
-- **Cross-Platform:** Works on macOS, Linux, and Windows (PowerShell/CMD).
-- **Lightweight:** Highly optimized for performance and low memory footprint.
-- **Easy Integration:** Drop-in support for Node.js and Python.
-
----
-
-## 📦 Installation
-
-```bash
-git clone https://github.com/RanaAhmar/terminal-spinners.git
-cd terminal-spinners
-```
-
-## 🛠️ Usage
-
-### Node.js Example
-
-```javascript
-const Spinner = require('./src/node/spinner');
-
-const loader = new Spinner('dots');
-loader.start('Downloading assets...');
-
-setTimeout(() => {
-    loader.stop('Assets downloaded successfully! ✅');
-}, 3000);
-```
-
-### Python Example
-
-```python
-from src.python.spinner import Spinner
-import time
-
-loader = Spinner('classic')
-loader.start("Processing data...")
-time.sleep(3)
-loader.stop("Done!")
-```
-
----
-
-## 🛡️ Keywords & SEO
-`terminal-spinners`, `cli-loader`, `bash-animation`, `loading-indicator`, `cli-ux`, `nodejs-spinner`, `python-spinner`, `stackaura`, `ahmar-hussain`.
-
----
-
-## 📄 License
-Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
@@ -81,3 +26,4 @@ If you found this tool useful, check out our other high-performance web utilitie
 - **Author:** [Ahmar Hussain](https://github.com/RanaAhmar)
 
 ---
+
